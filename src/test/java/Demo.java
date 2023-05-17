@@ -21,7 +21,7 @@ public class Demo {
         caps.setCapability("platformName" , "Android");
         caps.setCapability("platformVersion" , "5");
         caps.setCapability("deviceName" , "Test1");
-        caps.setCapability("app" , "/Users/amit.rai/Documents/app/Tesco_online.apk");
+        caps.setCapability("app" , System.getProperty("user.dir")+"/apps/selendroid-test-app-0.17.0.apk");
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
     }
 
