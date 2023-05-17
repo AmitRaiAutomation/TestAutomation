@@ -28,10 +28,10 @@ public class Demo {
     @Test
     public void test_Appium() throws MalformedURLException, InterruptedException {
         String message = "Hello GitHub Actions";
-//        WebElement messageTxt = driver.findElement(By.id("my_text_field"));
-//        messageTxt.sendKeys(message);
-//        System.out.println(messageTxt.getText());
-//        Assert.assertEquals(message,messageTxt.getText());
+        WebElement messageTxt = driver.findElement(By.id("my_text_field"));
+        messageTxt.sendKeys(message);
+        System.out.println(messageTxt.getText());
+        Assert.assertEquals(message,messageTxt.getText());
     }
 
     @AfterClass
