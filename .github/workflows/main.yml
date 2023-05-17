@@ -18,7 +18,7 @@ jobs:
         api-level: [25] #Google api level for example [25,23,28] 
         target: [default]
     steps:
-    - uses: actions/checkout@v3 
+    - uses: actions/checkout@v3- 
     - name: Use Node.js  
       uses: actions/setup-node@v3  
     - name: Set up JDK 1.8
