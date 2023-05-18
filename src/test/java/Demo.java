@@ -19,8 +19,8 @@ public class Demo {
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("automationName" , "UiAutomator2");
         caps.setCapability("platformName" , "Android");
-        caps.setCapability("platformVersion" , "5");
-        caps.setCapability("deviceName" , "Test1");
+        caps.setCapability("platformVersion" , "7.1.1");
+        caps.setCapability("deviceName" , "Android Emulator");
         caps.setCapability("app" , System.getProperty("user.dir")+"/apps/Tesco_online.apk");
         driver = new AndroidDriver<>(new URL("http://127.0.0.1:4723/wd/hub"), caps);
     }
