@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Demo" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-17T09:19:06" hostname="XE-GGN-IT-04488" time="0.001">
+<testsuite name="Demo" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-05-18T04:45:10" hostname="XE-GGN-IT-04488" time="0.0">
   <properties/>
-  <testcase name="test_Appium" classname="Demo" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[May 17, 2023 2:49:06 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+  <testcase name="test_Appium" classname="Demo" time="0.0"/>
+  <system-out><![CDATA[Hello GitHub Actions
+]]></system-out>
+  <system-err><![CDATA[May 18, 2023 10:15:10 AM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
 INFO: Detected dialect: W3C
 ]]></system-err>
 </testsuite>
